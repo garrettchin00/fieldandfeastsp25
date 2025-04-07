@@ -15,3 +15,15 @@
     --dark-charcoal: #2B2B2B;
     --soft-white: #FAF9F6;
 }
+
+body{
+    font-family: "Playfair Display";
+}
+
+h1{
+    color: var(--soft-white);
+}
+
+ol{
+    list-style: none;
+}
