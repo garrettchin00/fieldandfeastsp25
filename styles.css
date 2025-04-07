@@ -16,6 +16,10 @@
     --soft-white: #FAF9F6;
 }
 
+nav ul{
+    list-style: none;
+}
+
 body{
     font-family: "Playfair Display";
 }
