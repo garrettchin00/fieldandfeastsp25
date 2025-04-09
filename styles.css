@@ -7,7 +7,8 @@
 html{
     min-width: small;
     margin: 0 auto;
-    font: "Playfair Display"
+    font: "Playfair Display";
+    background-color: var(--linen);
 }
 
 :root{
@@ -27,6 +28,15 @@ header, footer{
     float: none;
 }
 
+header{
+    background-color: var(--midnight-blue);
+    min-width: small;
+}
+
+header p{
+    color: var(--soft-white);
+}
+
 nav ul{
     list-style: none;
 }
@@ -38,6 +48,7 @@ nav li{
 
 nav a{
     text-decoration: none;
+    text-align: auto;
 }
 
 body{
