@@ -6,6 +6,8 @@
 
 html{
     min-width: small;
+    margin: 0 auto;
+    font: "Playfair Display"
 }
 
 :root{
@@ -20,12 +22,28 @@ html{
     --soft-white: #FAF9F6;
 }
 
+header, footer{
+    text-align: center;
+    float: none;
+}
+
 nav ul{
     list-style: none;
 }
 
+nav li{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
 body{
     font-family: "Playfair Display";
+    box-sizing: border-box;
+    text-align: center;
 }
 
 h1{
