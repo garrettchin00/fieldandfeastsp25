@@ -33,7 +33,6 @@ time, mark, audio, video{
 }
 
 /* HTML5 display-role reset for older browsers */
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section{
 	display: block;
@@ -79,7 +78,6 @@ table{
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-
 body{
     font-family: var(--font-family);
     font-size: 1rem;
@@ -269,7 +267,7 @@ footer .social-links a{
     margin: 0 0.5rem;
 }
 
-
+/*MEDIA QUERY (medium)*/
 @media screen and (min-width: 600px){
     
     .offerings-grid{
@@ -302,6 +300,7 @@ footer .social-links a{
     }
 }
 
+/*MEDIA QUERY (large)*/
 @media screen and (min-width: 900px){
 
     .gallery-grid{
@@ -309,7 +308,8 @@ footer .social-links a{
         gap: 1rem;
     }
 }
-  
+
+/*MEDIA QUERY (x-large)*/
 @media screen and (min-width: 1200px){
     main{
         padding: 0 12rem;
