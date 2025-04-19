@@ -72,7 +72,6 @@ table{
 
     /* ----- FONTS ----- */
     --font-family: 'Playfair Display', serif;
-
 }
 
 /* GLOBAL STYLES (mobile first/small) */
@@ -90,7 +89,6 @@ header{
     color: var(--linen);
     text-align: center;
     padding-top: 2rem;
-    
 }
 
 header img{
@@ -157,7 +155,6 @@ main{
 }
 
 #offerings{
-    
     border-bottom: 1.5px solid var(--champagne-gold);
     padding-top: 16px;
 }
@@ -312,8 +309,7 @@ footer .social-links a{
     main{
         padding: 0 12rem;
     }
-      
-      
+       
     .gallery-grid{
       grid-template-columns: repeat(5, 1fr);
       gap: 1rem;
