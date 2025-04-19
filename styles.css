@@ -69,7 +69,8 @@ table{
     --linen: #F8F4EC;
     --dark-charcoal: #2B2B2B;
     --soft-white: #FAF9F6;
-
+    /* Other colors */
+    --gray: #d9d9d9;
     /* ----- FONTS ----- */
     --font-family: 'Playfair Display', serif;
 }
@@ -201,7 +202,7 @@ h3{
     background-color: var(--soft-white);
     border-radius: 8px;
     margin-top: 1rem;
-    box-shadow: 0 2px 8px #d9d9d9;
+    box-shadow: 0 2px 8px var(--gray);
     text-align: center;
     overflow: hidden;
 }
