@@ -257,7 +257,7 @@ footer a[href^="mailto:"]{
     color: var(--champagne-gold); 
 }
   
-footer .social-links a{
+footer .social-media a{
     color: var(--champagne-gold);
     margin: 0 0.5rem;
 }
